@@ -95,14 +95,14 @@ body {font-family:Lato, sans-serif;
     padding-top:30px;
     width:33%;
     float: left;
-    background-color:blue;
+    
 
 }
 #right-about {
     padding-top:30px;
     width:33%;
     float: right;
-    background-color:silver;
+    
 
 }
 #center-about {
@@ -110,4 +110,24 @@ body {font-family:Lato, sans-serif;
     margin:0 auto;
     background-color:green;
 
+}
+hr {
+    border-top:1px solid #3a3a3a;
+    width:100%;
+    margin:5px;
+
+}
+.left-about-heading {
+    width:60%;
+    float:right;
+    line-height:20px;
+    clear:both;
+    margin-bottom:50px;
+}
+.right-about-heading {
+    width:60%;
+    float:left;
+    line-height:20px;
+    clear:both;
+    margin-bottom:50px;
 }
