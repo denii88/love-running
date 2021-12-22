@@ -6,7 +6,7 @@ border: none;}
 
 body {font-family:Lato, sans-serif;
       font-weight:300;
-    color: #252525}
+    color: #3a3a3a}
 
     h1, h2 {
         font-family: Oswald, sans-serif;
@@ -114,7 +114,7 @@ body {font-family:Lato, sans-serif;
 hr {
     border-top:1px solid #3a3a3a;
     width:100%;
-    margin:5px;
+    margin:5px 0;
 
 }
 .left-about-heading {
@@ -173,7 +173,7 @@ hr {
     height:300px;
     float:left;
     padding:30px 0 0 10px;
-    text-align:centter;
+    text-align:center;
     border:2px solid white;
     box-sizing: border-box;
 
@@ -231,6 +231,14 @@ footer {
     float:left;
     padding:0;
 }
+
+#times > div {
+    width:100%;
+    clear: both;
+    height:150px;
+    padding:0;
+}
+
 hr{
     display:none;
 }
@@ -266,4 +274,10 @@ hr{
 .left-about-heading p, .right-about-heading p {
     text-align:center;
     padding:0,20px;
+}
+#photos {
+    column-count: 3;
+}
+@media screen and (max-width:800px) {
+    #photos {column-count:2;}
 }
